@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Bulbasaur",
+		"id": "#001",
+		"location": "Kanto",
+		"img": "bulbasaur.gif",
+		"description": "Some description",
+		"type": "Grass Poison"
+	},
+	{
+		"name": "Ivysaur",
+		"id": "#002",
+		"location": "Kanto",
+		"img": "ivysaur.gif",
+		"description": "Some description",
+		"type": "Grass Poison"
+	},
+	{
+		"name": "Venusaur",
+		"id": "#003",
+		"location": "Kanto",
+		"img": "venusaur.gif",
+		"description": "Some description",
+		"type": "Grass Poison"
+	}
+]
