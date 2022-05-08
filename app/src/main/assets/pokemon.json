@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Bulbasaur",
-		"id": "#001",
+		"id": 1,
 		"location": "Kanto",
 		"img": "bulbasaur.gif",
 		"description": "Some description",
@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Ivysaur",
-		"id": "#002",
+		"id": 2,
 		"location": "Kanto",
 		"img": "ivysaur.gif",
 		"description": "Some description",
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Venusaur",
-		"id": "#003",
+		"id": 3,
 		"location": "Kanto",
 		"img": "venusaur.gif",
 		"description": "Some description",

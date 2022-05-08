@@ -1,4 +1,4 @@
-package edu.rit.pokedexfinalproject
+package edu.rit.pokedexfinalproject.models
 
 data class Pokemon (
         val name: String,

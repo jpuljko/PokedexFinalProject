@@ -2,8 +2,12 @@ package edu.rit.pokedexfinalproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import java.io.IOException
-import java.io.InputStream
+import android.util.Log
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import edu.rit.pokedexfinalproject.models.Pokemon
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
