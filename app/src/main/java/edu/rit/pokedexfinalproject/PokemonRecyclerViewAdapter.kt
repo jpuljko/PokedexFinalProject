@@ -8,11 +8,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import edu.rit.pokedexfinalproject.models.Pokemon
 import edu.rit.pokedexfinalproject.utils.toDrawable
+import pl.droidsonroids.gif.GifImageView
 
 class PokemonViewHolder(view: View): RecyclerView.ViewHolder(view) {
-    var image: ImageView = view.findViewById(R.id.pokemonImg)
+    var image: GifImageView = view.findViewById(R.id.pokemonImg)
     var name: TextView = view.findViewById(R.id.tvName)
-    var description: TextView = view.findViewById(R.id.tvType)
+    var type: TextView = view.findViewById(R.id.tvType)
 }
 
 class PokemonRecyclerViewAdapter(private var pokemons: List<Pokemon>): RecyclerView.Adapter<PokemonViewHolder>() {
@@ -32,7 +33,7 @@ class PokemonRecyclerViewAdapter(private var pokemons: List<Pokemon>): RecyclerV
 
         holder.image.setImageResource(pokemon.img.toDrawable(holder.image.context))
         holder.name.text = pokemon.name
-        holder.description.text = pokemon.description
+        holder.type.text = pokemon.type
     }
 
     override fun getItemCount(): Int {

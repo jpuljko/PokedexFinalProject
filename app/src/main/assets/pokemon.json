@@ -3,24 +3,96 @@
 		"name": "Bulbasaur",
 		"id": 1,
 		"location": "Kanto",
-		"img": "bulbasaur.gif",
-		"description": "Some description",
-		"type": "Grass Poison"
+		"img": "bulbasaur",
+		"description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+		"type": "Grass | Poison"
 	},
 	{
 		"name": "Ivysaur",
 		"id": 2,
 		"location": "Kanto",
-		"img": "ivysaur.gif",
-		"description": "Some description",
-		"type": "Grass Poison"
+		"img": "ivysaur",
+		"description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+		"type": "Grass | Poison"
 	},
 	{
 		"name": "Venusaur",
 		"id": 3,
 		"location": "Kanto",
-		"img": "venusaur.gif",
-		"description": "Some description",
-		"type": "Grass Poison"
+		"img": "venusaur",
+		"description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+		"type": "Grass | Poison"
+	},
+	{
+		"name": "Charmander",
+		"id": 4,
+		"location": "Kanto",
+		"img": "charmander",
+		"description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+		"type": "Fire"
+	},
+	{
+		"name": "Charmeleon",
+		"id": 5,
+		"location": "Kanto",
+		"img": "charmeleon",
+		"description": "\n\nIt has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+		"type": "Fire"
+	},
+	{
+		"name": "Charizard",
+		"id": 6,
+		"location": "Kanto",
+		"img": "charizard",
+		"description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+		"type": "Fire | Flying"
+	},
+	{
+		"name": "Squirtle",
+		"id": 7,
+		"location": "Kanto",
+		"img": "squirtle",
+		"description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+		"type": "Water"
+	},
+	{
+		"name": "Wartortle",
+		"id": 8,
+		"location": "Kanto",
+		"img": "wartortle",
+		"description": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+		"type": "Water"
+	},
+	{
+		"name": "Blastoise",
+		"id": 9,
+		"location": "Kanto",
+		"img": "blastoise",
+		"description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+		"type": "Water"
+	},
+	{
+		"name": "Caterpie ",
+		"id": 10,
+		"location": "Kanto",
+		"img": "caterpie",
+		"description": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+		"type": "Bug"
+	},
+	{
+		"name": "Metapod",
+		"id": 11,
+		"location": "Kanto",
+		"img": "metapod",
+		"description": "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+		"type": "Bug"
+	},
+	{
+		"name": "Butterfree",
+		"id": 12,
+		"location": "Kanto",
+		"img": "butterfree",
+		"description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+		"type": "Bug"
 	}
 ]
